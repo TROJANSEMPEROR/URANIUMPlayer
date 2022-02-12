@@ -1,4 +1,4 @@
-# Aditya Halder // @AdityaHalder
+# URANIUM // @THE_URANIUM_OP
 
 import os
 import aiofiles
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**🔎 Sɘɑɤƈɦɩɳʛ ...**")
+    lel = await message.reply("**🎧 𝚄𝚁𝙰𝙽𝙸𝚄𝙼 𝚂𝙴𝙰𝚁𝙲𝙷𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝙼𝚄𝚂𝙸𝙲 🔎...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -129,24 +129,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 Ʌʈ🤞Fɩrsʈ 🥀 Ɱɑƙɘ ♥️ Ɱɘ ⭐ Ʌɗɱɩŋ 😎 ...**")
+                        "**🍷𝙰𝚃 𝙵𝙸𝚁𝚂𝚃 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽🥂 ...**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 😎 I🤞ʌɱ 🥀 Ʀɘɑɗy ♥️ Ƭø ⭐ Ƥɭɑy 😎 ...**")
+                        message.chat.id, "** 🥂𝙽𝙾𝚆 𝙸 𝙰𝙼 𝚁𝙴𝙰𝙳𝚈 𝚃𝙾 𝙿𝙻𝙰𝚈🍷...**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸 Ƥɭɘɑsɘ ❤️ Ɱɑŋʋɑɭɭy 🥀 Ʌɗɗ 💫 Ʌssɩsʈɑŋʈ 😔 Øɤ 🎸 Ƈøŋʈɑƈʈ ❤️ ʈø : @AdityaHalder 🥀** ")
+                        f"**⚡𝙿𝙻𝙴𝙰𝚂𝙴 𝙼𝙰𝙽𝙽𝚄𝙰𝙻𝚈 𝙰𝙳𝙳 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙾𝚁 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝚃𝙾 : @THE_URANIUM_OP 🍷** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸 Ƥɭɘɑsɘ ❤️ Ɱɑŋʋɑɭɭy 🥀 Ʌɗɗ 💫 Ʌssɩsʈɑŋʈ 😔 Øɤ 🎸 Ƈøŋʈɑƈʈ ❤️ ʈø : @AdityaHalder 🥀 ...*")
+            f"**⚡𝙿𝙻𝙴𝙰𝚂𝙴 𝙼𝙰𝙽𝙽𝚄𝙰𝙻𝚈 𝙰𝙳𝙳 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙾𝚁 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝚃𝙾 : @THE_URANIUM_OP 🍷 ...*")
         return
     
     audio = (
@@ -159,12 +159,12 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**💥 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**▶️ 𝙿𝙻𝙰𝚈 🔊 𝙼𝚄𝚂𝙸𝙲 💿 𝙻𝙴𝚂𝚂 🍷\n🥂 𝚃𝙷𝙰𝙽 ⚡️ {DURATION_LIMIT} ⌚ 𝙼𝙸𝙽𝚄𝚃𝙴𝚂**"
             )
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+        thumb_name = "https://telegra.ph/file/0b0e3dc1484e712cd5b19.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -173,8 +173,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/adityadiscus")
+                            text="🍷𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 𝐀𝐍𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓🥂",
+                            url=f"https://t.me/LOVERS_SWEETLAND")
 
                 ]
             ]
@@ -212,8 +212,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/adityadiscus")
+                            text="🍷𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 𝐀𝐍𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓🥂",
+                            url=f"https://t.me/LOVERS_SWEETLAND")
 
                 ]
             ]
@@ -221,15 +221,15 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+            thumb_name = "https://telegra.ph/file/0b0e3dc1484e712cd5b19.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/adityadiscus")
+                            text="🍷𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 𝐀𝐍𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓🥂",
+                            url=f"https://t.me/LOVERS_SWEETLAND")
 
                 ]
             ]
@@ -237,7 +237,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**▶️ 𝙿𝙻𝙰𝚈 🔊 𝙼𝚄𝚂𝙸𝙲 💿 𝙻𝙴𝚂𝚂 🍷 ⚡️\n🤟 𝚃𝙷𝙰𝙽⚡️ {DURATION_LIMIT} 🍷 𝙼𝙸𝙽𝚄𝚃𝙴 ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -246,9 +246,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**🤖 Ɠɩⱱɘ 🙃 Ɱʋsɩƈ 💿 Ɲɑɱɘ 😍\n💞 Ƭø 🔊 Ƥɭɑy 🌷...**"
+                "**🤖 𝙶𝙸𝚅𝙴 𝙼𝚄𝚂𝙸𝙲 𝙽𝙰𝙼𝙴 \n⚡𝚃𝙾 𝙿𝙻𝙰𝚈...**"
             )
-        await lel.edit("**🔄 Ƥɤøƈɘssɩɳʛ ...**")
+        await lel.edit("** 🎧 𝐒𝐎𝐍𝐆 𝐏𝐑𝐎𝐂𝐂𝐄𝐒𝐒𝐈𝐍𝐆 🔃 ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -273,7 +273,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🔊 Ɱʋsɩƈ 😕 Ɲøʈ 📵 Føʋɳɗ❗️\n💞 Ƭɤy ♨️ Ʌɳøʈɦɘɤ 🌷...**"
+                "**🔊 ᴍᴜsɪᴄ ɴᴏᴛ ғᴏᴜɴᴅ❗️\n ᴛʀʏ ᴀɴᴏᴛʜᴇʀ 🍷...**"
             )
             print(str(e))
             return
@@ -282,8 +282,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/adityadiscus")
+                            text="🥂𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 𝐀𝐍𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓🍷",
+                            url=f"https://t.me/LOVERS_SWEETLAND")
 
                 ]
             ]
@@ -291,7 +291,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**▶️ 𝙿𝙻𝙰𝚈 🔊 𝙼𝚄𝚂𝙸𝙲 💿 𝙻𝙴𝚂𝚂 ⚡️\n🤟 𝚃𝙷𝙰𝙽⚡️ {DURATION_LIMIT} ⌚ 𝙼𝙸𝙽𝚄𝚃𝙴 ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -305,7 +305,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 Ʌɗɩtyɑ🤞Ʌɗɗɘɗ 💿 Søɳʛ❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{}` 🌷 ...**".format(position),
+            caption="**💿 𝚄𝚁𝙰𝙽𝙸𝚄𝙼 𝙰𝙳𝙳𝙴𝙳 𝚂𝙾𝙽𝙶❗️\n🔊 𝙰𝚃  𝙿𝙾𝚂𝚂𝙸𝚃𝙸𝙾𝙽 » `{}` 🍷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -322,7 +322,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 Ʌɗɩtyɑ🤞Mʋsɩƈ 🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**".format(),
+            caption="**🎧 𝐔𝐑𝐀𝐍𝐈𝐔𝐌 𝐌𝐔𝐒𝐈𝐂 𝐍𝐎𝐖\n🔊 𝐏𝐋𝐀𝐘𝐈𝐍𝐆 𝐎𝐏 🍷 ...**".format(),
            )
 
     os.remove("final.png")
@@ -335,8 +335,8 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/f2b5739b266e05c9a2909.png", 
-                             caption="**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n▶️ Ƥɑʋsɘɗ 🌷 ...**"
+                             photo="https://telegra.ph/file/0b0e3dc1484e712cd5b19.jpg", 
+                             caption="**🎧 𝐔𝐑𝐀𝐍𝐈𝐔𝐌 𝐌𝐔𝐒𝐈𝐂 𝐍𝐎𝐖 🌹 \n▶️ 𝐏𝐀𝐔𝐒𝐄𝐃 🍷 ...**"
     )
 
 
@@ -346,8 +346,8 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/391e636040ae189c23cdb.png", 
-                             caption="**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n⏸ Ƥɭɑyɩɳʛ 🌷 ...**"
+                             photo="https://telegra.ph/file/0b0e3dc1484e712cd5b19.jpg", 
+                             caption="**🎧 𝐔𝐑𝐀𝐍𝐈𝐔𝐌 𝐌𝐔𝐒𝐈𝐂 𝐍𝐎𝐖 🌹\n⏸ 𝐏𝐋𝐀𝐘𝐈𝐍𝐆 🍷 ...**"
     )
 
 
@@ -362,7 +362,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💥 Ʌɗɩtyɑ 💞 Ɲøʈɦɩɳʛ 🔇\n🚫 Ƥɭɑyɩɳʛ 🌷 ...**")
+        await message.reply_text("**𝐔𝐑𝐀𝐍𝐈𝐔𝐌 𝐍𝐎𝐓𝐇𝐈𝐍𝐆 🔇\n🚫 𝐏𝐋𝐀𝐘𝐈𝐍𝐆 🍷 ...**")
     else:
         queues.task_done(chat_id)
         
@@ -380,8 +380,8 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/4e92cde4f29dbecffb7a7.png", 
-                             caption=f'**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n⏩ Sƙɩƥƥɘɗ 🌷 ...**'
+                             photo="https://telegra.ph/file/0b0e3dc1484e712cd5b19.jpg", 
+                             caption=f'**𝐔𝐑𝐀𝐍𝐈𝐔𝐌 𝐌𝐔𝐒𝐈𝐂 𝐍𝐎𝐖🍷\n🥂 𝐒𝐊𝐈𝐏𝐏𝐄𝐃 ⏭️ ...**'
    ) 
 
 
@@ -396,8 +396,8 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/836a1883cf1dd024f1b7e.png", 
-                             caption="**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n❌ Sʈøƥƥɘɗ 🌷 ...**"
+                             photo="https://telegra.ph/file/0b0e3dc1484e712cd5b19.jpg", 
+                             caption="**𝐔𝐑𝐀𝐍𝐈𝐔𝐌 𝐌𝐔𝐒𝐈𝐂 𝐍𝐎𝐖🥂\n🍷 𝐒𝐓𝐎𝐏𝐏𝐄𝐃 🚏 ...**"
     )
 
 
@@ -414,6 +414,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://te.legra.ph/file/02306701e296bcf8634fa.png",
-                              caption="**💥 Ʌɗɩtyɑ 🔈 Mʋsɩƈ🤞Nøω 🥀\n🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
+                              photo="https://telegra.ph/file/0b0e3dc1484e712cd5b19.jpg",
+                              caption="**𝐔𝐑𝐀𝐍𝐈𝐔𝐌 𝐌𝐔𝐒𝐈𝐂 𝐍𝐎𝐖🍷\n🥂  𝐑𝐄𝐀𝐋𝐎𝐃𝐄𝐃 🔃...**"
     )
