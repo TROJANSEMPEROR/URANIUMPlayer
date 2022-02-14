@@ -18,6 +18,10 @@
             "description": "Put Bot Token Of Your Bot",
             "required": true
         },
+        "ALIVE_IMG": {
+            "description": "Telegraph link",
+            "required": true
+        },
         "STRING_SESSION": {
             "description": "Pyrogram String Session",
             "required": true
