@@ -1,5 +1,4 @@
 import asyncio
-import config
 from modules.config import ALIVE_IMG
 from time import time
 from datetime import datetime
