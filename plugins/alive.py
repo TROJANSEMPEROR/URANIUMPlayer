@@ -1,11 +1,13 @@
 import asyncio
+import config
+from config import ALIVE_IMG
 from time import time
 from datetime import datetime
 from modules.helpers.filters import command
 from modules.helpers.command import commandpro
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from config import ALIVE_IMG
+
 
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
