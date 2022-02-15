@@ -1,6 +1,6 @@
 import asyncio
 import config
-from config import ALIVE_IMG
+from modules.config import ALIVE_IMG
 from time import time
 from datetime import datetime
 from modules.helpers.filters import command
