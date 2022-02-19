@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Aditya Halder (@AdityaHalder)",
+        f"Powered By: HITESH (@THE_URANIUM_OP)",
         (255, 255, 255),
         font=font,
     )
@@ -346,7 +346,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/0b0e3dc1484e712cd5b19.jpg", 
+                             photo="https://telegra.ph/file/a0a21112a3a1bdefcdb6d.jpg", 
                              caption="**🎧 𝐔𝐑𝐀𝐍𝐈𝐔𝐌 𝐌𝐔𝐒𝐈𝐂 𝐍𝐎𝐖 🌹\n⏸ 𝐏𝐋𝐀𝐘𝐈𝐍𝐆 🍷 ...**"
     )
 
@@ -380,7 +380,7 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/0b0e3dc1484e712cd5b19.jpg", 
+                             photo="https://telegra.ph/file/a0a21112a3a1bdefcdb6d.jpg", 
                              caption=f'**𝐔𝐑𝐀𝐍𝐈𝐔𝐌 𝐌𝐔𝐒𝐈𝐂 𝐍𝐎𝐖🍷\n🥂 𝐒𝐊𝐈𝐏𝐏𝐄𝐃 ⏭️ ...**'
    ) 
 
