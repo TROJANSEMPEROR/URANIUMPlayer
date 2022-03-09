@@ -39,14 +39,14 @@ async def start_(client: Client, message: Message):
 🍷ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ━━━━━━━━━━━━━━━━━━━━━━**
-┣★ ᴄʀᴇᴀᴛᴏʀ : [🍷𝗨𝗥𝗔𝗡𝗜𝗨𝗠🍷](https://t.me/THE_URANIUM_OP)
-
-┣★ sᴜᴘᴘᴏʀᴛ : [🍷𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣🍷](https://t.me/LOVERS_SWEETLAND)
-━━━━━━━━━━━━━━━━━━━━━━  
+┣★ ᴄʀᴇᴀᴛᴏʀ : [🍷 𝐔𝐑𝐀𝐍𝐈𝐔𝐌🍷](https://t.me/THE_URANIUM_OP)
+🤎
+┣★ sᴜᴘᴘᴏʀᴛ : [🍷𝐉𝐎𝐈𝐍 𝐅𝐎𝐑 𝐒𝐔𝐏𝐏𝐎𝐑𝐓🍷](https://t.me/LOVERS_SWEETLAND)
+━━━━━━━━━━━━━━━━━━━━━━**  
 
 
 🍷 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/THE_URANIUM_OP) ...
+ᴅᴍ ᴛᴏ ᴍʏ [ 𝘿𝘼𝘿𝘿𝙔 ](https://t.me/THE_URANIUM_OP) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
