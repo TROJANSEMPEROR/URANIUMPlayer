@@ -39,7 +39,7 @@ async def start_(client: Client, message: Message):
 🍷ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ━━━━━━━━━━━━━━━━━━━━━━**
-┣★ ᴄʀᴇᴀᴛᴏʀ : [🍷 𝐔𝐑𝐀𝐍𝐈𝐔𝐌🍷](https://t.me/THE_URANIUM_OP)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [🍷 𝐔𝐑𝐀𝐍𝐈𝐔𝐌🍷](https://t.me/THE_URANIUM)
 🤎
 ┣★ sᴜᴘᴘᴏʀᴛ : [🍷𝐉𝐎𝐈𝐍 𝐅𝐎𝐑 𝐒𝐔𝐏𝐏𝐎𝐑𝐓🍷](https://t.me/LOVERS_SWEETLAND)
 ━━━━━━━━━━━━━━━━━━━━━━**  
